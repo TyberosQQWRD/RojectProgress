@@ -1,0 +1,123 @@
+.portfolio {
+    width: 100%;
+    height: 1200px;
+    align-items: center;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.WOW {
+    font-family: "Inter-Regular";
+    color: var(--third-color);
+    opacity: .25;
+    position: relative;
+    top: 100px;
+    left: 120px;
+}
+
+.WOW1 {
+    font-family: "Inter-Bold";
+    color: var(--third-color);
+    position: relative;
+    margin-top: 40px;
+    top: 100px;
+    left: 120px;
+}
+
+.WOW2 {
+    font-family: "Inter-Regular";
+    color: var(--third-color);
+    position: relative;
+    margin-top: 20px;
+    top: 100px;
+    left: 120px;
+}
+
+.GRID {
+    height: 1022px;
+    width: 80vw;
+    align-items: center;
+    z-index: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    position: relative;
+    margin-top: 60px;
+    top: 100px;
+    left: 120px;
+    padding: 0;
+}
+
+.Item1,.Item6 {
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+    grid-column: span 2;
+    grid-row: span 3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 10px;
+}
+
+.Item2,.Item3,.Item4,.Item5 {
+    box-sizing: content-box;
+    height: 100%;
+    width: 100%;
+    grid-column: span 1;
+    grid-row: span 4;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 10px;
+}
+.Item1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+ .Item1{
+    background-image: url(../pictures/png/image45.jpg);
+}
+.Item2{
+    background-image: url(../pictures/png/image\ 46.png);    
+}
+.Item3{
+    background-image: url(../pictures/png/image\ 43.png);    
+}
+.Item4{
+    background-image: url(../pictures/png/image\ 41.png);
+}
+.Item5{
+    background-image: url(../pictures/png/image\ 44.png);    
+}
+.Item6{
+    background-image: url(../pictures/png/image\ 47.png);
+}
+
+.Item1 pre,.Item2 pre,.Item3 pre,.Item4 pre,.Item5 pre,.Item6 pre {
+    font-family: "Inter-Regular";
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+}
+
+.Item1 p,.Item2 p,.Item3 p,.Item4 p,.Item5 p,.Item6 p {
+    font-family: "Inter-Regular";
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: white;
+}
+
+.Item1 button,.Item2 button,.Item3 button,.Item4 button,.Item5 button,.Item6 button {
+
+}

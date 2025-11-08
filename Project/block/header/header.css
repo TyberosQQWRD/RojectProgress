@@ -1,0 +1,43 @@
+.theme {
+    background-color: var(--primary-color);
+    font-family: "Inter-Regular";
+    border: 0;
+}
+
+.nav {
+    background-color: white;
+    z-index: 10;
+    width: 90vw;
+    top: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.Header1 {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: "Inter-Regular";
+}
+
+nav {
+    margin-top: 16px;
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+.contact {
+    border: 0;
+    background-color:var( --button-color);
+    color: var(--primary-color);
+    border-radius: 8%;
+    width: 100px;
+    height: 52px;
+}

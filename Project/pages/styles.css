@@ -1,0 +1,8 @@
+@import url(../fonts/fonts.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/vendor.css);
+@import url(../block/header/header.css);
+@import url(../block/main/main.css);
+@import url(../block/main/About.css);
+@import url(../block/main/Skills.css);
+@import url(../block/main/Portfolio.css);
