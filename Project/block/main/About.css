@@ -85,4 +85,5 @@ div div a {
     rotate: -90deg;
     gap:20px;
     right: 50px;
+    z-index: 3;
 }
