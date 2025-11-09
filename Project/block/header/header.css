@@ -5,7 +5,7 @@
 }
 
 .nav {
-    background-color: white;
+    background-color: var(--primary-color);
     z-index: 10;
     width: 90vw;
     top: 20px;
@@ -23,7 +23,7 @@
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: var(--third-color);
     font-family: "Inter-Regular";
 }
 

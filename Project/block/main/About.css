@@ -65,13 +65,13 @@ div div a {
 
 .scroll_down {
     opacity: 25%;
-    color: #1B1B1B;
+    color: var(--third-color);
     font-family: "Inter-Regular";
 }
 
 .Stick {
     opacity: 25%;
-    background-color: #1b1b1b;
+    background-color: var(--third-color);
     width: 160px;
     height: 1px;
 }

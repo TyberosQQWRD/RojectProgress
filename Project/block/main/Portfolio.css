@@ -2,8 +2,9 @@
     width: 100%;
     height: 1200px;
     align-items: center;
-    background-color: white;
+    background-color: var(--primary-color);
     margin-top: 100px;
+    margin-bottom: 180px;
 }
 
 .WOW {
@@ -42,9 +43,9 @@
     grid-template-rows: repeat(7, 1fr);
     gap: 10px;
     position: relative;
-    margin-top: 60px;
-    top: 100px;
     left: 120px;
+    top: 100px;
+    margin-top: 60px;
     padding: 0;
 }
 
@@ -102,7 +103,7 @@
     position: relative;
     top: 40px;
     left: 40px;
-    color: white;
+    color: var(--primary-color);
     z-index: 2;
 }
 
@@ -111,7 +112,7 @@
     position: relative;
     top: 40px;
     left: 40px;
-    color: white;
+    color: var(--primary-color);
     z-index: 2;
     opacity: 0.45;
 }

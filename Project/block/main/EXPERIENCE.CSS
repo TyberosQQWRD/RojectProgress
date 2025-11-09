@@ -1,0 +1,53 @@
+.EXPERIENCE{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1168px;
+    padding: 80px;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding-bottom: 80px;
+}
+
+.Exp1{
+    font-family: "Inter-Regular";
+    opacity: .3;
+}
+.Exp2{
+    font-family: "Inter-Bold";
+    margin-top: 40px;
+}
+.Jour{
+    font-family: "Inter-Regular";
+    width: 430px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Grid2 {
+    width: 80vw;
+    height: 696px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 60px;
+    padding: 0;
+}
+
+.Item {
+    padding: 40px;
+    border: 1px solid rgb(0, 0, 0, .25);
+    border-radius: 10px;
+    font-family: "Inter-Regular";
+}
+
+.Item h2 {
+    margin-top: 40px;
+    font-family: "Inter-Bold";
+}
+
+.Item div {
+    font-size: 100px;
+    font-family: "Inter-Bold";
+}

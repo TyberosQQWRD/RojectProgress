@@ -56,7 +56,7 @@
     padding-right: 10px;
     width: max-content;
     background-color: var(--third-color);
-    color: white;
+    color: var(--primary-color);
 }
 
 .ProgressIn p {
@@ -74,7 +74,7 @@
     position: relative;
     width: 400px;
     height: 5px;
-    background-color: #f0f0f0;
+    background-color: var(--primary-color);
     border-radius: 10px;
 }
 
@@ -90,7 +90,7 @@
     position: relative;
     width: 400px;
     height: 5px;
-    background-color: #f0f0f0;
+    background-color: var(--primary-color);
     border-radius: 10px;
 }
 
@@ -106,7 +106,7 @@
     position: relative;
     width: 400px;
     height: 5px;
-    background-color: #f0f0f0;
+    background-color: var(--primary-color);
     border-radius: 10px;
 }
 
