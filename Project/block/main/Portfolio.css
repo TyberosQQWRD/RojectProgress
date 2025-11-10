@@ -125,7 +125,7 @@
     border: 0;
     border-radius: 5px;
     left: 40px;
-    top: 228px;
+    top: 158px;
     font-family: "Inter-Regular";
 }
 
@@ -137,7 +137,7 @@
     border: 0;
     border-radius: 5px;
     left: 40px;
-    top: 372px;
+    top: 260px;
     font-family: "Inter-Regular";
 }
 
@@ -151,4 +151,8 @@
     background: rgba(0, 0, 0, 0.3);
     z-index: 1;
     border-radius: 10px;
+}
+
+.gg pre {
+    font-size: 30px;
 }
